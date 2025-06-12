@@ -44,10 +44,8 @@ npm install
 npm run dev
 
 
-### 🌐 Frontend
-bash
-Copier
-Modifier
+#### 🌐 Frontend
+
 cd client
 npm install
 npm start
