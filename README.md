@@ -35,17 +35,19 @@ AUTHMERNSTACK/
 
 ## ⚙️ Setup Instructions
 
+npm install 
+
 ### 🧪 Backend
 
-```bash
 cd server
 cp .env.example .env
 npm install
-npm run dev
 
 
 #### 🌐 Frontend
 
 cd client
 npm install
-npm start
+
+##### ▶️ Run both server and client
+npm run dev
