@@ -44,16 +44,10 @@ npm install
 npm run dev
 
 
-frontend 
-
+### 🌐 Frontend
+bash
+Copier
+Modifier
 cd client
 npm install
 npm start
-
- Backend
-
-cd server
-cp .env.example .env
-npm install
-npm run dev
-
