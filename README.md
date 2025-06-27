@@ -14,9 +14,32 @@ This is a full-stack authentication app built with the MERN stack (MongoDB, Expr
 
 ## Screenshots
 
-> *(Optional)* Add screenshots of login form, OTP, and reset password screens.
+## 🚀 Tech Stack
 
----
+### 🖥️ Frontend
+- **React** – UI library for building components
+- **React DOM** – React rendering for the web
+- **React Router DOM** – Client-side routing
+- **Axios** – HTTP client for API requests
+- **React Toastify** – Toast notifications for user feedback
+- **React Icons** – Popular icon packs as React components
+
+### 🖧 Backend
+- **Node.js**
+- **Express.js** – Web server framework
+- **Mongoose** – MongoDB object modeling
+- **bcryptjs** – Password hashing
+- **jsonwebtoken** – Token-based authentication
+- **cookie-parser** – Parse cookies from requests
+- **cors** – Enable CORS for cross-origin requests
+- **dotenv** – Load environment variables
+- **nodemailer** – Send emails (e.g., confirmation, reset password)
+- **nodemon** – Dev dependency for automatic server restarts
+
+  ## ⚙️ Development Tools
+- **Concurrently** – Run frontend and backend servers in parallel
+- **Nodemon** – Automatically restarts the backend server on changes
+
 
 ## Project Structure
 
@@ -49,5 +72,11 @@ npm install
 cd client
 npm install
 
-##### ▶️ Run both server and client
+#### ▶️ Run both server and client
 npm run dev
+
+### 🚀 Start the app
+
+To start both frontend and backend at the same time, run:
+npm run dev
+
